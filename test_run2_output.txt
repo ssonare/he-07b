@@ -1,0 +1,75 @@
+test_boundary_just_valid (TestTriangle.TestTriangle.test_boundary_just_valid)
+Test ID 31: Triangle that just satisfies inequality ... ok
+test_boundary_large_values (TestTriangle.TestTriangle.test_boundary_large_values)
+Test ID 30: Large but valid triangle ... ok
+test_boundary_smallest_valid (TestTriangle.TestTriangle.test_boundary_smallest_valid)
+Test ID 29: Smallest valid triangle (all sides = 1) ... ok
+test_edge_almost_equilateral (TestTriangle.TestTriangle.test_edge_almost_equilateral)
+Test ID 34: Almost equilateral but actually isosceles ... ok
+test_edge_very_thin_triangle (TestTriangle.TestTriangle.test_edge_very_thin_triangle)
+Test ID 35: Very thin but valid triangle ... ok
+test_equilateral_large (TestTriangle.TestTriangle.test_equilateral_large)
+Test ID 3: Large equilateral triangle ... ok
+test_equilateral_medium (TestTriangle.TestTriangle.test_equilateral_medium)
+Test ID 2: Medium equilateral triangle ... ok
+test_equilateral_small (TestTriangle.TestTriangle.test_equilateral_small)
+Test ID 1: Small equilateral triangle ... ok
+test_float_equilateral (TestTriangle.TestTriangle.test_float_equilateral)
+Test ID 33: Equilateral with float values ... ok
+test_float_scalene (TestTriangle.TestTriangle.test_float_scalene)
+Test ID 32: Scalene triangle with float values ... ok
+test_invalid_all_negative (TestTriangle.TestTriangle.test_invalid_all_negative)
+Test ID 28: All sides negative ... ok
+test_invalid_all_zeros (TestTriangle.TestTriangle.test_invalid_all_zeros)
+Test ID 24: All sides are zero ... ok
+test_invalid_different_order (TestTriangle.TestTriangle.test_invalid_different_order)
+Test ID 20: Invalid triangle with different parameter order ... ok
+test_invalid_negative_side_a (TestTriangle.TestTriangle.test_invalid_negative_side_a)
+Test ID 25: Negative value for side a ... ok
+test_invalid_negative_side_b (TestTriangle.TestTriangle.test_invalid_negative_side_b)
+Test ID 26: Negative value for side b ... ok
+test_invalid_negative_side_c (TestTriangle.TestTriangle.test_invalid_negative_side_c)
+Test ID 27: Negative value for side c ... ok
+test_invalid_one_side_too_large (TestTriangle.TestTriangle.test_invalid_one_side_too_large)
+Test ID 19: One side much larger than others ... ok
+test_invalid_sum_equals_third (TestTriangle.TestTriangle.test_invalid_sum_equals_third)
+Test ID 17: Sum of two sides equals third side ... ok
+test_invalid_sum_less_than_third (TestTriangle.TestTriangle.test_invalid_sum_less_than_third)
+Test ID 18: Sum of two sides less than third side ... ok
+test_invalid_zero_side_a (TestTriangle.TestTriangle.test_invalid_zero_side_a)
+Test ID 21: Zero value for side a ... ok
+test_invalid_zero_side_b (TestTriangle.TestTriangle.test_invalid_zero_side_b)
+Test ID 22: Zero value for side b ... ok
+test_invalid_zero_side_c (TestTriangle.TestTriangle.test_invalid_zero_side_c)
+Test ID 23: Zero value for side c ... ok
+test_isosceles_ab_equal (TestTriangle.TestTriangle.test_isosceles_ab_equal)
+Test ID 4: Isosceles with a=b ... ok
+test_isosceles_ac_equal (TestTriangle.TestTriangle.test_isosceles_ac_equal)
+Test ID 6: Isosceles with a=c ... ok
+test_isosceles_bc_equal (TestTriangle.TestTriangle.test_isosceles_bc_equal)
+Test ID 5: Isosceles with b=c ... ok
+test_isosceles_large (TestTriangle.TestTriangle.test_isosceles_large)
+Test ID 7: Large isosceles triangle ... ok
+test_isosceles_right (TestTriangle.TestTriangle.test_isosceles_right)
+Test ID 15: Isosceles right triangle (1-1-sqrt2) ... ok
+test_isosceles_right_larger (TestTriangle.TestTriangle.test_isosceles_right_larger)
+Test ID 16: Larger isosceles right triangle ... ok
+test_right_triangle_345 (TestTriangle.TestTriangle.test_right_triangle_345)
+Test ID 11: Classic 3-4-5 right triangle ... ok
+test_right_triangle_51213 (TestTriangle.TestTriangle.test_right_triangle_51213)
+Test ID 13: 5-12-13 right triangle ... ok
+test_right_triangle_543 (TestTriangle.TestTriangle.test_right_triangle_543)
+Test ID 12: 3-4-5 right triangle (different order) ... ok
+test_right_triangle_81517 (TestTriangle.TestTriangle.test_right_triangle_81517)
+Test ID 14: 8-15-17 right triangle ... ok
+test_scalene_large (TestTriangle.TestTriangle.test_scalene_large)
+Test ID 10: Large scalene triangle ... ok
+test_scalene_medium (TestTriangle.TestTriangle.test_scalene_medium)
+Test ID 9: Medium scalene triangle ... ok
+test_scalene_small (TestTriangle.TestTriangle.test_scalene_small)
+Test ID 8: Small scalene triangle ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.008s
+
+OK

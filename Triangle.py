@@ -43,21 +43,12 @@ if __name__ == "__main__":
         (-1, 2, 2)
     ]
 
+    # Print examples to console
     for sides in examples:
         print(f"Sides: {sides} -> {classify_triangle(*sides)}")
 
-# triangle.py
-with open("output.txt", "w") as f:
-    examples = [
-        (3, 3, 3),
-        (5, 5, 8),
-        (4, 5, 6),
-        (3, 4, 5),
-        (1, 1, 2**0.5),
-        (1, 2, 3),
-        (-1, 2, 2)
-    ]
-
-    for sides in examples:
-        result = classify_triangle(*sides)
-        f.write(f"Sides: {sides} -> {result}\n")
+    # Write examples to file
+    with open("output.txt", "w") as f:
+        for sides in examples:
+            result = classify_triangle(*sides)
+            f.write(f"Sides: {sides} -> {result}\n")
